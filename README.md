@@ -1,6 +1,6 @@
 # 🍽️ Food Recommendation Suite — Supervised ML Projects
 
-A collection of six supervised machine learning projects focused on food ordering and recommendation systems. These notebooks use sample data and are configured to run both locally and in Google Colab.
+A collection of three supervised machine learning projects focused on food ordering and recommendation systems. These notebooks use sample data and are configured to run both locally and in Google Colab.
 
 ## Overview
 
@@ -13,11 +13,9 @@ food-recommendation-suite/
 │
 ├── notebooks/              
 │   ├── project1_next_order_reorder.ipynb
-│   ├── project2_rating_regression.ipynb
 │   ├── project3_supervised_topn_ranking.ipynb
-│   ├── project4_copurchase_prediction.ipynb
 │   ├── project5_deal_value_regression.ipynb
-│   └── project6_popularity_personalized_blend.ipynb
+│   
 │
 ├── requirements.txt
 ├── README.md
@@ -28,11 +26,8 @@ food-recommendation-suite/
 ## Projects
 
 1. **Next-Order Reorder Prediction** - Uses RandomForestClassifier to predict customer retention signals
-2. **Rating Regression** - Implements GradientBoostingRegressor to predict user-item ratings
 3. **Supervised Top-N Ranking** - Creates personalized recommendation lists using GradientBoostingRegressor
-4. **Co-purchase Prediction** - Identifies complementary items with RandomForestClassifier
 5. **Deal Value Regression** - Estimates bundle value using GradientBoostingRegressor
-6. **Popularity + Personalized Blend** - Combines global and personalized signals with StackingClassifier
 
 ## Quick Start
 
