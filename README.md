@@ -11,7 +11,7 @@ This repository contains end-to-end implementations of common recommendation and
 ```
 food-recommendation-suite/
 │
-├── notebooks/              # Jupyter notebooks for each project
+├── notebooks/              
 │   ├── project1_next_order_reorder.ipynb
 │   ├── project2_rating_regression.ipynb
 │   ├── project3_supervised_topn_ranking.ipynb
@@ -19,9 +19,6 @@ food-recommendation-suite/
 │   ├── project5_deal_value_regression.ipynb
 │   └── project6_popularity_personalized_blend.ipynb
 │
-├── models/                 # Saved model artifacts (.pkl)
-├── frontend/              # Demo UI (React/Streamlit)
-├── results/               # Screenshots and visualizations
 ├── requirements.txt
 ├── README.md
 ├── LICENSE
