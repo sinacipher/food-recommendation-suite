@@ -1,10 +1,24 @@
 # 🍽️ Food Recommendation Suite — Supervised ML Projects
 
-A collection of three supervised machine learning projects focused on food ordering and recommendation systems. These notebooks use sample data and are configured to run both locally and in Google Colab.
+A collection of supervised machine learning projects focused on food ordering and recommendation systems. These notebooks use sample data and are configured to run both locally and in Google Colab.
 
 ## Overview
 
 This repository contains end-to-end implementations of common recommendation and marketing tasks, including reorder prediction, rating estimation, personalized ranking, co-purchase detection, bundle value estimation, and hybrid recommendation approaches.
+
+## 🎯 Real-World Application: Zomato Rating Prediction
+
+**Results on Bangalore Restaurant Dataset (n=41,665):**
+- **ROC AUC: 0.906** - Excellent ranking capability
+- **Accuracy: 83.8%** - 19.4% improvement over baseline
+- **Successful prediction** of high-rated restaurants (≥4.0 stars)
+
+**Key Insights:**
+- Restaurant location, type, and cuisine are strong predictors of quality
+- Online ordering and table booking features significantly impact ratings
+- Model effectively handles real-world data imperfections and class imbalance
+
+**Business Value:** This model can help food platforms surface high-quality restaurants and improve user satisfaction.
 
 ## Project Structure
 
@@ -12,11 +26,14 @@ This repository contains end-to-end implementations of common recommendation and
 food-recommendation-suite/
 │
 ├── notebooks/              
-│   ├── project1_next_order_reorder.ipynb
-│   ├── project3_supervised_topn_ranking.ipynb
-│   ├── project5_deal_value_regression.ipynb
-│   
+│   ├── project1A_next_order_reorder.ipynb
+│   ├── project1B_supervised_topn_ranking.ipynb
+│   ├── project1C_deal_value_regression.ipynb
+│   ├── project2_zomato_rating_prediction.ipynb
 │
+├── data/
+│   └── zomato.csv
+|
 ├── requirements.txt
 ├── README.md
 ├── LICENSE
